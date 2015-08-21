@@ -344,6 +344,41 @@ return array(
                     "description" => "This is the name of the Brightpearl Sales Channel(s) you're looking for",
                     "required" => false,
                 ),
+                
+                "SKU" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "The SKU of the Product.",
+                    "required" => false,
+                ),
+
+                "barcode" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "The barcode of the Product.",
+                    "required" => false,
+                ),
+
+                "EAN" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "The EAN of the Product.",
+                    "required" => false,
+                ),
+
+                "UPC" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "The UPC of the Product.",
+                    "required" => false,
+                ),
+
+                "ISBN" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "The ISBN of the Product.",
+                    "required" => false,
+                ),
 
                 "pageSize" => array(
                     "type" => "integer",
