@@ -380,6 +380,20 @@ return array(
                     "required" => false,
                 ),
 
+                "createdOn" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "When the Product was created.",
+                    "required" => false,
+                ),
+
+                "updatedOn" => array(
+                    "type" => "string",
+                    "location" => "query",
+                    "description" => "When the Product was last updated.",
+                    "required" => false,
+                ),
+
                 "pageSize" => array(
                     "type" => "integer",
                     "location" => "query",
